@@ -1,7 +1,11 @@
 from colorama import Fore, Back, Style, init
 import time
 import random
+import pyfiglet
 
+Tata = "BiteGenToken"
+ASCII_art_1 = pyfiglet.figlet_format(Tata)
+print(ASCII_art_1)
 init()
 
 
